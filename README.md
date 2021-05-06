@@ -1,0 +1,1 @@
+Stress on arrow functions in classes
