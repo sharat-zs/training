@@ -2,8 +2,6 @@ const FIZZ = 'fizz'
 const BUZZ = 'buzz'
 const FIZZ_BUZZ = FIZZ + BUZZ
 
-const x = 5
-
 /**
  * @description
  */
