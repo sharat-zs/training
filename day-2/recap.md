@@ -24,7 +24,7 @@ let user = {
 
 ```
 let x = 5
-const y =5
+const y = 5
 
 // Older way
 var z = 5
@@ -36,7 +36,7 @@ Functions are like any other objects and can be passed around, returned like any
 other objects
 
 ```
-function hello(message){
+function hello(message) {
     console.log(message)
 }
 ```
@@ -75,4 +75,5 @@ hello() // prints undefined
 Arrays are also objects in javascript 
 ```
 let arr = [1, 2, 3, 4,5]
+arr.push(6)
 ```
