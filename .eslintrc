@@ -9,7 +9,7 @@
     "rules": {
       "semi": "off",
       "quotes": ["error", "single"],
-      "no-console": ["error", { "allow": ["error"] }],
+      "no-console": "off",
       "prettier/prettier": "error",
       "no-use-before-define": ["error", { "functions": false }],
       "no-restricted-syntax": "off",
