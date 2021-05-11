@@ -12,6 +12,7 @@
         "incremental": true,
         "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
         "composite": true,
+        "strictNullChecks": true,
         "resolveJsonModule": true
     },
     "include": ["day-4/**/*.ts"]

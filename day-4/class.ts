@@ -18,6 +18,7 @@ interface IPoint {
     getLocation: () => [number, number, number]
 }
 
+
 type Arr = number[]
 type Tup = [number]
 
