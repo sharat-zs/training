@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 function dummy(name: string, place: string = 'bangalore'): number {
     return 5
 }
@@ -19,9 +20,10 @@ dummy('harry', 'delhi')
 
 dummyVoid('harry')
 
-type Person =
-    { name: string, email: string, place?: string }
+type Person = { name: string; email: string; place?: string }
 
 function savePersonDetails(person: Person) {
 
 }
+
+

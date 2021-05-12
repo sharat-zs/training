@@ -13,7 +13,8 @@
         "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
         "composite": true,
         "strictNullChecks": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "allowJs": true
     },
-    "include": ["day-4/**/*.ts"]
+    "include": ["day-4/**/*.ts", "day-5/**/*.ts"]
 }
