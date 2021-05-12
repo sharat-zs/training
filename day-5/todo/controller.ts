@@ -11,7 +11,7 @@ export class Controller implements ITodoController {
         return this.instance
     }
 
-    constructor(private readonly service: ITodoService) {}
+    constructor(private readonly service: ITodoService) { }
 
     getList: (ctx: Context) => Promise<any> = async (_ctx) => {
         return this.service.getList()
@@ -25,6 +25,7 @@ export class Controller implements ITodoController {
     }
 }
 
+// TODO: Do better validations using zod
 function isValidCreateTodoBody(data: unknown): data is CreateTodoBody {
     return (
         (data as CreateTodoBody).title !== undefined &&

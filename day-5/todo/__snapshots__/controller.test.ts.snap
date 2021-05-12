@@ -1,6 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TodoController getList should call service 1`] = `
+exports[`TodoController create item should reject invalid context 1`] = `[Error: Bad request]`;
+
+exports[`TodoController create item should return created todoitem 1`] = `
+Object {
+  "id": 1,
+  "status": "pending",
+  "title": "task -1",
+}
+`;
+
+exports[`TodoController getList should call service getList 1`] = `
 Array [
   Object {
     "id": 1,

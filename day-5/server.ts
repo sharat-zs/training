@@ -10,4 +10,5 @@ app.get('/error', async () => {
 
 app.get('/todos', TodoController.getInstance().getList)
 app.post('/todos', TodoController.getInstance().createItem)
-app.start()
+
+export default app.start()
