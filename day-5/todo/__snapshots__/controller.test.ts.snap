@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoController getList should call service 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "status": "pending",
+    "title": "task -1",
+  },
+]
+`;

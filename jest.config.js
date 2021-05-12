@@ -3,13 +3,11 @@ module.exports = {
     //  excluding the src/types and exclude coverage from node_modules and dist folder
     collectCoverageFrom: [
         '<rootDir>/day-5/**/*.ts',
-        '!<rootDir>/src/**/index.ts',
-        '!<rootDir>/src/**/*.types.ts',
-        '!<rootDir>/src/**/*.integration.ts',
-        '!<rootDir>/src/**/test-utils/**',
-        '!<rootDir>/src/**/mocks/**',
-        '!<rootDir>/src/types/**',
-        '!<rootDir>/src/prom.integration.test.ts',
+        '!<rootDir>/day-5/**/index.ts',
+        '!<rootDir>/day-5/**/*.types.ts',
+        '!<rootDir>/day-5/**/*.integration.ts',
+        '!<rootDir>/day-5/**/test-utils/**',
+        '!<rootDir>/day-5/**/mocks/**',
         '!**/node_modules/**',
         '!<rootDir>/dist/**'
     ],
@@ -60,15 +58,11 @@ module.exports = {
     // goes a step further and resets the module registry before running each individual test.
     resetModules: true,
 
-    // mentioned file corresponding to setupFilesAfterEnv starts executing immediately after the test
-    // framework has been installed in the environment.
-    setupFilesAfterEnv: ['./jest.setup.js'],
-
     // it will set node like environment for testing purpose ans overrides the default environment
     testEnvironment: 'node',
 
     // test match says test file must contain .test.ts extension, add if you want some other extension.
-    testMatch: ['<rootDir>/src/**/*.test.ts'],
+    testMatch: ['<rootDir>/day-5/**/*.test.ts'],
 
     // override the default timeout value i.e 5000, if test is failing because of timeout
     // this value could be increased, if testTimeout is the only reason for timeout
