@@ -7,7 +7,7 @@
 
 ```
     TodoItem 
-    id: number | uuid
+    id: number
     title: string 
     status: enum (pending|in-progress|done)
     dueDate: Date, Optional 

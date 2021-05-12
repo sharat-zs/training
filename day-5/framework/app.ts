@@ -86,7 +86,7 @@ function transformContext(ctx: RouterContext): Context {
     return {
         headers: ctx.request.headers,
         query: ctx.request.query,
-        body: ctx.request.query,
+        body: ctx.request.body,
         params: ctx.params,
         path: ctx.path
     }
