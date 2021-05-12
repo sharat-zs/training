@@ -1,5 +1,4 @@
-import App from './framework'
-import { StandardError } from './framework/error'
+import App, { StandardError } from './framework'
 
 const app = new App()
 

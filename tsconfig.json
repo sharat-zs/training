@@ -16,5 +16,5 @@
         "resolveJsonModule": true,
         "allowJs": true
     },
-    "include": ["day-4/**/*.ts", "day-5/**/*.ts"]
+    "include": ["day-5/**/*.ts"]
 }
