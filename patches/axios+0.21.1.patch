@@ -1,0 +1,12 @@
+diff --git a/node_modules/axios/index.d.ts b/node_modules/axios/index.d.ts
+index c74e93c..9d342e4 100644
+--- a/node_modules/axios/index.d.ts
++++ b/node_modules/axios/index.d.ts
+@@ -32,6 +32,7 @@ export type Method =
+   | 'purge' | 'PURGE'
+   | 'link' | 'LINK'
+   | 'unlink' | 'UNLINK'
++  | 'whatever' | 'WhatEver'
+ 
+ export type ResponseType =
+   | 'arraybuffer'

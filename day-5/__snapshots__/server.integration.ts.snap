@@ -7,6 +7,20 @@ Object {
 }
 `;
 
+exports[`integration tests should return 200 on outbound 1`] = `
+Object {
+  "data": Object {
+    "users": Array [
+      Object {
+        "id": 1,
+        "name": "John Smith",
+      },
+    ],
+  },
+  "status": 200,
+}
+`;
+
 exports[`integration tests should send 200 response to "/hello" 1`] = `
 Object {
   "data": "hello",

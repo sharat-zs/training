@@ -1,3 +1,4 @@
+import { fetchData, URL } from '../day-6/http-client'
 import App, { StandardError } from './framework'
 import { TodoController } from './todo'
 
@@ -11,6 +12,8 @@ app.get('/hello', async () => {
 app.get('/error', async () => {
     throw new StandardError("Known error, won't fix", 'KNOWN_ERROR', 400)
 })
+
+app.get('/outgoing', async () => fetchData(URL))
 
 app.get('/todos', TodoController.getInstance().getList)
 app.post('/todos', TodoController.getInstance().createItem)

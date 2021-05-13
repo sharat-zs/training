@@ -3,6 +3,8 @@ module.exports = {
     //  excluding the src/types and exclude coverage from node_modules and dist folder
     collectCoverageFrom: [
         '<rootDir>/day-5/**/*.ts',
+        '<rootDir>/day-6/**/*.ts',
+        '<rootDir>/day-7/**/*.ts',
         '!<rootDir>/day-5/**/index.ts',
         '!<rootDir>/day-5/**/*.types.ts',
         '!<rootDir>/day-5/**/*.integration.ts',
@@ -62,7 +64,7 @@ module.exports = {
     testEnvironment: 'node',
 
     // test match says test file must contain .test.ts extension, add if you want some other extension.
-    testMatch: ['<rootDir>/day-5/**/*.test.ts'],
+    testMatch: ['<rootDir>/**/*.test.ts'],
 
     // override the default timeout value i.e 5000, if test is failing because of timeout
     // this value could be increased, if testTimeout is the only reason for timeout

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`http-client should return proper response 1`] = `
+Object {
+  "users": Array [
+    Object {
+      "id": 1,
+      "name": "John Smith",
+    },
+  ],
+}
+`;

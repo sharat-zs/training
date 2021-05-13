@@ -8,6 +8,7 @@
     "dev": "ts-node day-5/server.ts",
     "lint": "eslint ./day-5 --ext .ts",
     "test": "jest",
+    "postinstall": "patch-package",
     "test:integration": "jest --config=jest.config.integration.js",
     "test:coverage": "jest --coverage",
     "build": "tsc -b tsconfig.json",
@@ -21,6 +22,7 @@
     "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.23.0",
+    "axios-mock-adapter": "^1.19.0",
     "eslint": "^7.25.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^8.3.0",
@@ -41,6 +43,7 @@
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^10.0.0",
+    "patch-package": "^6.4.7",
     "reflect-metadata": "^0.1.13",
     "zod": "^3.0.0-beta.1"
   }
