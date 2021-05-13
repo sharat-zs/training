@@ -11,7 +11,7 @@ export class Controller implements ITodoController {
         return this.instance
     }
 
-    constructor(private readonly service: ITodoService) { }
+    constructor(private readonly service: ITodoService) {}
 
     getList: (ctx: Context) => Promise<any> = async (_ctx) => {
         return this.service.getList()
@@ -33,7 +33,7 @@ function isValidCreateTodoBody(data: unknown): data is CreateTodoBody {
     )
 }
 
-// Achieving something similar using a more "mdoule" based approach
+// Achieving something similar using a more "module" based approach
 // const service = TodoService.getInstance()
 
 // export const getList: (ctx: Context) => Promise<any> = async (_ctx) => {

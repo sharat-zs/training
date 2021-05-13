@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`integration tests should always throw error 1`] = `
+Object {
+  "code": "KNOWN_ERROR",
+  "message": "Known error, won't fix",
+}
+`;
+
+exports[`integration tests should send 200 response to "/hello" 1`] = `
+Object {
+  "data": "hello",
+  "status": 200,
+}
+`;

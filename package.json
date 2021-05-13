@@ -8,6 +8,7 @@
     "dev": "ts-node day-5/server.ts",
     "lint": "eslint ./day-5 --ext .ts",
     "test": "jest",
+    "test:integration": "jest --config=jest.config.integration.js",
     "test:coverage": "jest --coverage",
     "build": "tsc -b tsconfig.json",
     "build:clean": "rimraf dist && npm run build"
@@ -17,6 +18,7 @@
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "@types/koa-bodyparser": "^4.3.0",
+    "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.23.0",
     "eslint": "^7.25.0",
@@ -35,6 +37,7 @@
   "dependencies": {
     "@types/koa": "^2.13.1",
     "@types/koa-router": "^7.4.2",
+    "axios": "^0.21.1",
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^10.0.0",

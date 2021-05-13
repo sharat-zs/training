@@ -14,7 +14,8 @@
         "composite": true,
         "strictNullChecks": true,
         "resolveJsonModule": true,
-        "allowJs": true
+        "allowJs": true,
+        "sourceMap": true
     },
     "include": ["day-5/**/*.ts"]
 }
