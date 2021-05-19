@@ -23,7 +23,7 @@ jobs:
           npm install
           tar -zcf node_modules.zip node_modules/
       - name: upload node_modules
-        uses: action/upload-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
           name: node_modules.zip
           path: node_modules.zip
