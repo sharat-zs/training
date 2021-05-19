@@ -1,0 +1,11 @@
+// Build file
+docker build -t <name:tag> .
+
+// Running
+docker run -d -p 5000:8000 name:tag
+
+// See all Running containers
+docker ps
+
+//Stopping a Running container
+docker stop <container id>

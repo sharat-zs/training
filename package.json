@@ -4,7 +4,7 @@
   "description": "A training project for javscript",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./dist/day-5/server.js",
     "dev": "ts-node day-5/server.ts",
     "lint": "eslint ./day-5 --ext .ts",
     "test": "jest",
